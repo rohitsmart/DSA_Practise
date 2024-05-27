@@ -11,7 +11,7 @@ public class ReverseString {
             return str;
         } else {
             char firstChar = str.charAt(0);
-            String reversedSubstring = reverseString(str.substring(1));
+            String reversedSubstring = reverseString(str.substring(1)); 
             return reversedSubstring + firstChar;
         }
     }
